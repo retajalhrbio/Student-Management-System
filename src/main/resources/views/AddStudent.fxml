@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<!-- Add Student Screen (VBox Layout for consistency) -->
+<VBox alignment="CENTER"
+      spacing="12"
+      xmlns="http://javafx.com/javafx/17"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.mycompany.studentmanagementsystem.AddStudentController">
+
+    <!-- Page Title -->
+    <Label text="Add New Student"/>
+
+    <!-- Student ID -->
+    <TextField fx:id="idField"
+               promptText="Student ID"/>
+
+    <!-- Student Name -->
+    <TextField fx:id="nameField"
+               promptText="Full Name"/>
+
+    <!-- Student Email -->
+    <TextField fx:id="emailField"
+               promptText="Email"/>
+
+    <!-- Student Major -->
+    <TextField fx:id="majorField"
+               promptText="Major"/>
+
+    <!-- Save Button -->
+    <Button text="Save Student"
+            onAction="#handleAddStudent"/>
+
+    <!-- Back Button -->
+    <Button text="Back"
+            fx:id="backButton"
+            onAction="#goBack"/>
+
+</VBox>

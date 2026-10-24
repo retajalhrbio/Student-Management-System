@@ -1,0 +1,18 @@
+# Maven
+target/
+
+# Java
+*.class
+
+# IDE files
+.idea/
+.vscode/
+nbproject/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Student data
+students.txt
+grades.txt
